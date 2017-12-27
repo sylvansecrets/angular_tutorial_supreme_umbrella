@@ -1,0 +1,42 @@
+.selected {
+	background-color: grey;
+	color: white;
+}
+
+.heroes {
+	list-style-type: none;
+	
+}
+
+.heroes li {
+	cursor: pointer;
+	background-color: hsla(211, 48%, 70%, 1);
+	margin-bottom: 5px;
+	max-width: 30%;
+}
+
+.heroes li.selected {
+  background-color: hsla(211, 48%, 60%, 1);
+  color: white;
+}
+
+.heroes li.selected:hover {
+  background-color: hsla(211, 48%, 40%, 1);
+  color: white;
+}
+
+
+.heroes li:hover {
+	background-color: hsla(211, 48%, 60%, 1);
+}
+
+.heroes .badge {
+	font-size: small;
+	color: white;
+	background-color: hsla(211, 48%, 50%, 1);
+	min-width: 2em;
+	display: inline-block;
+	border-radius: 4px 0 0 4px;
+	text-align: center;
+	height: 100%;
+}
